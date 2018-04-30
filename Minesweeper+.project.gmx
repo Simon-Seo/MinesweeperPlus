@@ -27,6 +27,8 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\MinesBeside.gml</script>
+    <script>scripts\RevealBeside.gml</script>
+    <script>scripts\Reveal.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_courier</font>

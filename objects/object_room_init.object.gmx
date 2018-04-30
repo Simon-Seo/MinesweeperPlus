@@ -26,13 +26,13 @@
           <argument>
             <kind>1</kind>
             <string>randomize();
+for(var i = 0; i&lt;99; i++) {
+    instance_create(0,0,object_place_mine);
+}
 for(var a = 0; a&lt;32; a++) {
     for(var b = 0; b&lt;18; b++) {
         instance_create(mine_width * a, mine_width * b, object_tile);
     }
-}
-for(var i = 0; i&lt;99; i++) {
-    instance_create(0,0,object_place_mine);
 }
 </string>
           </argument>

@@ -58,6 +58,7 @@
           <argument>
             <kind>1</kind>
             <string>hover=false;
+instance_create(self.x, self.y, object_number);
 </string>
           </argument>
         </arguments>
@@ -232,8 +233,7 @@
           <argument>
             <kind>1</kind>
             <string>if(hover &amp;&amp; current_time - time_pressed &lt; 500) {
-    instance_create(self.x,self.y,object_number);
-    instance_destroy();
+    Reveal(id);
 }
 </string>
           </argument>
@@ -374,6 +374,22 @@ time_pressed=current_time
         <useapplyto>0</useapplyto>
         <exetype>0</exetype>
         <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="9" enumb="32">
+      <action>
+        <libid>1</libid>
+        <id>223</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_current_room</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
