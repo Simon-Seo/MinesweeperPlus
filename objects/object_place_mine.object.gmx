@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(mine_width * irandom(31), mine_width * irandom(17), object_mine)
+            <string>instance_create(mine_width * irandom(17), mine_width * irandom(31), object_mine)
 </string>
           </argument>
         </arguments>
