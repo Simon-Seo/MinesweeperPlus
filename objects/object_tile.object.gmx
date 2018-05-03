@@ -232,7 +232,7 @@ instance_create(id.x, id.y, object_number);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(hover &amp;&amp; current_time - time_pressed &lt; 500) {
+            <string>if(hover &amp;&amp; current_time - time_pressed &lt; 250) {
     Reveal(id);
 }
 </string>
